@@ -1,0 +1,210 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": true,
+        "runtime": "scene_main/scene_main.ts",
+        "height": 380,
+        "autoDestroyAtClosed": false
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 5,
+                "y": 274,
+                "x": 301,
+                "width": 217,
+                "visible": false,
+                "var": "tishi",
+                "skin": "bg/UI8.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 35
+            },
+            "compId": 243,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 4,
+                        "x": 10,
+                        "width": 197,
+                        "var": "tishiwenben",
+                        "valign": "middle",
+                        "strokeColor": "#121111",
+                        "height": 26,
+                        "fontSize": 22,
+                        "font": "kaiti",
+                        "color": "#ececec",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 244
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "bottom": 65,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 321
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 75,
+                "x": 266,
+                "width": 287,
+                "visible": false,
+                "var": "Jiangli",
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 229
+            },
+            "compId": 315,
+            "child": [
+                {
+                    "type": "VBox",
+                    "props": {
+                        "y": 54,
+                        "x": 33.5,
+                        "width": 220,
+                        "space": 5,
+                        "name": "JLBox",
+                        "height": 160,
+                        "align": "left"
+                    },
+                    "compId": 316
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 13,
+                        "x": 16,
+                        "wordWrap": true,
+                        "width": 254,
+                        "var": "Jianglitext",
+                        "valign": "top",
+                        "leading": 3,
+                        "height": 50,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 331
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 332
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 324
+        },
+        {
+            "type": "Button",
+            "props": {
+                "zOrder": 10,
+                "y": 0,
+                "x": 820,
+                "width": 28,
+                "var": "ShuaXin",
+                "stateNum": 1,
+                "skin": "comp/refresh.png",
+                "pivotX": 28,
+                "height": 24
+            },
+            "compId": 391,
+            "child": [
+                {
+                    "type": "Script",
+                    "props": {
+                        "y": 10,
+                        "x": -782,
+                        "top": 0,
+                        "right": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 392
+                }
+            ]
+        }
+    ],
+    "animations": [
+        {
+            "nodes": [
+                {
+                    "target": 119,
+                    "keyframes": {
+                        "space": [
+                            {
+                                "value": 5,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 119,
+                                "key": "space",
+                                "index": 0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "target": 127,
+                    "keyframes": {
+                        "leading": [
+                            {
+                                "value": 6,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 127,
+                                "key": "leading",
+                                "index": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "uiani",
+            "id": 1,
+            "frameRate": 60,
+            "action": 0
+        },
+        {
+            "nodes": [],
+            "name": "uiani2",
+            "id": 2,
+            "frameRate": 60,
+            "action": 0
+        }
+    ],
+    "loadList": [
+        "bg/UI8.png",
+        "bg/UI7.png",
+        "comp/refresh.png"
+    ],
+    "loadList3D": []
+}

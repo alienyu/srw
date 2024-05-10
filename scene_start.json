@@ -55,7 +55,7 @@
                                 "labelColors": "#d9d9d9",
                                 "labelBold": false,
                                 "labelAlign": "center",
-                                "label": "å¼€å§‹æ¸¸æˆ",
+                                "label": "开始游戏",
                                 "height": 26
                             },
                             "compId": 3
@@ -73,7 +73,7 @@
                                 "labelColors": "#d9d9d9",
                                 "labelBold": false,
                                 "labelAlign": "center",
-                                "label": "ç»§ç»­æ¸¸æˆ",
+                                "label": "继续游戏",
                                 "height": 26
                             },
                             "compId": 7
@@ -91,7 +91,7 @@
                                 "labelColors": "#d9d9d9",
                                 "labelBold": false,
                                 "labelAlign": "center",
-                                "label": "å…³å¡å­˜æ¡£",
+                                "label": "关卡存档",
                                 "height": 26
                             },
                             "compId": 8
@@ -102,7 +102,7 @@
                                 "y": -70,
                                 "x": -2,
                                 "width": 170,
-                                "text": "ä½œè€…:æºªå­¤æ˜“",
+                                "text": "作者:金麦基",
                                 "height": 29,
                                 "fontSize": 22,
                                 "font": "kaiti",
@@ -119,7 +119,7 @@
                                 "y": -40,
                                 "x": -12,
                                 "width": 189,
-                                "text": "QQç¾¤ï¼š224334820",
+                                "text": "QQ群：224334820",
                                 "height": 29,
                                 "fontSize": 22,
                                 "font": "kaiti",
@@ -185,7 +185,7 @@
                                 "x": 126,
                                 "width": 126,
                                 "valign": "middle",
-                                "text": "è¯·é€‰æ‹©å…³å¡",
+                                "text": "请选择关卡",
                                 "pivotY": 17,
                                 "pivotX": 66,
                                 "height": 29,
@@ -213,7 +213,7 @@
                                 "labelFont": "kaiti",
                                 "labelColors": "#d9d9d9",
                                 "labelBold": false,
-                                "label": "è¿›å…¥æ¸¸æˆ",
+                                "label": "进入游戏",
                                 "height": 31
                             },
                             "compId": 13
@@ -233,7 +233,7 @@
                                 "labelColors": "#d9d9d9",
                                 "labelBold": false,
                                 "labelAlign": "center",
-                                "label": "è¿”å›žä¸»é¡µ",
+                                "label": "返回主页",
                                 "height": 31,
                                 "sizeGrid": "18,32,18,32"
                             },
@@ -265,7 +265,7 @@
                                 "x": 0,
                                 "width": 199,
                                 "valign": "middle",
-                                "text": "æ— å­˜æ¡£",
+                                "text": "无存档",
                                 "strokeColor": "#000000",
                                 "name": "tishiwenben",
                                 "height": 45,
@@ -296,7 +296,7 @@
                         "x": -191,
                         "width": 382,
                         "valign": "middle",
-                        "text": "é‡åˆ¶ç‰ˆâ€”ä¸å¿˜åˆå¿ƒ",
+                        "text": "重制版—不忘初心",
                         "height": 59,
                         "fontSize": 40,
                         "font": "kaiti",
@@ -321,7 +321,7 @@
                         "labelFont": "kaiti",
                         "labelColors": "#ffffff",
                         "labelAlign": "center",
-                        "label": "å…¬å‘Š",
+                        "label": "公告",
                         "height": 31
                     },
                     "compId": 36

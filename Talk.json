@@ -1,0 +1,141 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "height": 380
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 380,
+                "x": 141,
+                "width": 537,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "talkmianban",
+                "height": 133,
+                "alpha": 1
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "Button",
+                    "props": {
+                        "zOrder": 98,
+                        "y": 5,
+                        "x": 478,
+                        "width": 54,
+                        "stateNum": 1,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,15,18,16",
+                        "name": "tiaoguo",
+                        "mouseEnabled": true,
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#eeeeee",
+                        "labelBold": false,
+                        "labelAlign": "center",
+                        "label": "è·³è¿‡",
+                        "height": 29
+                    },
+                    "compId": 16
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 66,
+                        "x": 51,
+                        "width": 64,
+                        "name": "touxiang",
+                        "height": 64,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "compId": 17
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 6,
+                        "x": 123,
+                        "width": 125,
+                        "valign": "middle",
+                        "name": "name",
+                        "height": 31,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#e8e845",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 10
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 38,
+                        "x": 98,
+                        "wordWrap": true,
+                        "width": 426,
+                        "valign": "top",
+                        "name": "duihua",
+                        "leading": 8,
+                        "height": 84,
+                        "fontSize": 20,
+                        "font": "kaiti",
+                        "color": "#e2e2e2",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 19
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 15
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 10,
+                "x": 10,
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 20
+        },
+        {
+            "type": "Script",
+            "props": {
+                "touxiang": "@node:17",
+                "tiaoguo": "@node:16",
+                "talkmianban": "@node:3",
+                "name": "@node:10",
+                "duihua": "@node:19",
+                "runtime": "script/Talk.ts"
+            },
+            "compId": 21
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "bg/UI8.png"
+    ],
+    "loadList3D": []
+}

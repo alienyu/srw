@@ -1,0 +1,196 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 65,
+                "x": 196,
+                "width": 447,
+                "visible": true,
+                "var": "GKshuoming",
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 274,
+                "drawCallOptimize": true
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 164,
+                        "x": 15,
+                        "width": 417,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "height": 103
+                    },
+                    "compId": 10
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 35,
+                        "x": 15,
+                        "width": 417,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "height": 100
+                    },
+                    "compId": 15
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 3,
+                        "x": 413,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "btn_close",
+                        "height": 30
+                    },
+                    "compId": 12
+                },
+                {
+                    "type": "Panel",
+                    "props": {
+                        "y": 41,
+                        "x": 19,
+                        "width": 415,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "name": "GKPanel",
+                        "height": 90
+                    },
+                    "compId": 14,
+                    "child": [
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 2,
+                                "x": 8,
+                                "wordWrap": true,
+                                "width": 402,
+                                "valign": "top",
+                                "name": "shuoming",
+                                "leading": 4,
+                                "height": 233,
+                                "fontSize": 18,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 17
+                },
+                {
+                    "type": "Panel",
+                    "props": {
+                        "y": 171,
+                        "x": 24,
+                        "width": 413,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "name": "TZPanel",
+                        "height": 92
+                    },
+                    "compId": 18,
+                    "child": [
+                        {
+                            "type": "VBox",
+                            "props": {
+                                "width": 410,
+                                "space": 5,
+                                "name": "TZbox",
+                                "height": 260,
+                                "align": "left"
+                            },
+                            "compId": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 5,
+                        "x": 173,
+                        "width": 101,
+                        "valign": "middle",
+                        "texture": "bg/UI8.png",
+                        "text": "å…³å¡è¯´æ˜Ž",
+                        "height": 31,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 5
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 134,
+                        "x": 169,
+                        "width": 106,
+                        "valign": "middle",
+                        "texture": "bg/UI8.png",
+                        "text": "æŒ‘æˆ˜è¯´æ˜Ž",
+                        "height": 31,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 7
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 65,
+                "x": 196,
+                "shuoming": "@node:16",
+                "btn_close": "@node:12",
+                "TZshuoming": "@node:8",
+                "TZbox": "@node:20",
+                "TZPanel": "@node:18",
+                "GKshuoming": "@node:3",
+                "GKPanel": "@node:14",
+                "runtime": "script/Gkshuoming.ts"
+            },
+            "compId": 13
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "bg/UI8.png",
+        "comp/btn_x.png",
+        "comp/vscroll_2.png"
+    ],
+    "loadList3D": []
+}

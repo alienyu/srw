@@ -1,1 +1,153 @@
-{"type":"View","props":{"width":820,"runtime":"LoadingRT.ts","height":380,"autoDestroyAtClosed":true},"compId":2,"child":[{"type":"Image","props":{"y":75,"x":410,"width":598,"skin":"bg/bg_fengmian.png","pivotY":73,"pivotX":299,"height":146},"compId":8,"child":[{"type":"Script","props":{"top":20,"centerX":0,"runtime":"laya.ui.Widget"},"compId":9}]},{"type":"ProgressBar","props":{"y":277,"x":189.5,"width":441,"var":"progress","skin":"comp/progress.png","height":20},"compId":3,"child":[{"type":"Script","props":{"centerX":0,"runtime":"laya.ui.Widget"},"compId":6}]},{"type":"Script","props":{"top":0,"right":0,"left":0,"bottom":0,"runtime":"laya.ui.Widget"},"compId":5},{"type":"Image","props":{"y":190,"x":296,"width":229,"skin":"bg/UI8.png","sizeGrid":"18,32,18,32","height":34},"compId":10,"child":[{"type":"Text","props":{"y":7,"x":18,"width":192,"text":"æ­£åœ¨åŠ è½½ä¸­ï¼Œè¯·ç¨åŽ","height":21,"fontSize":21,"font":"kaiti","color":"#d9d9d9","bold":false,"runtime":"Laya.Text"},"compId":7},{"type":"Script","props":{"centerX":0,"runtime":"laya.ui.Widget"},"compId":13}]},{"type":"Image","props":{"y":232,"x":331,"width":158,"var":"wancheng","skin":"bg/UI8.png","sizeGrid":"18,32,18,32","height":34},"compId":11,"child":[{"type":"Text","props":{"y":7,"x":16,"width":126,"name":"wanchengdu","height":21,"fontSize":21,"font":"kaiti","color":"#d9d9d9","bold":false,"align":"center","runtime":"Laya.Text"},"compId":12},{"type":"Script","props":{"centerX":0,"runtime":"laya.ui.Widget"},"compId":14}]}],"loadList":["bg/bg_fengmian.png","comp/progress.png","bg/UI8.png"],"loadList3D":[]}
+{
+    "type": "View",
+    "props": {
+        "width": 820,
+        "runtime": "LoadingRT.ts",
+        "height": 380,
+        "autoDestroyAtClosed": true
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "y": 75,
+                "x": 410,
+                "width": 598,
+                "skin": "bg/bg_fengmian.png",
+                "pivotY": 73,
+                "pivotX": 299,
+                "height": 146
+            },
+            "compId": 8,
+            "child": [
+                {
+                    "type": "Script",
+                    "props": {
+                        "top": 20,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 9
+                }
+            ]
+        },
+        {
+            "type": "ProgressBar",
+            "props": {
+                "y": 277,
+                "x": 189.5,
+                "width": 441,
+                "var": "progress",
+                "skin": "comp/progress.png",
+                "height": 20
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 6
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 5
+        },
+        {
+            "type": "Image",
+            "props": {
+                "y": 190,
+                "x": 296,
+                "width": 229,
+                "skin": "bg/UI8.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 34
+            },
+            "compId": 10,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 7,
+                        "x": 18,
+                        "width": 192,
+                        "text": "正在加载中，请稍后",
+                        "height": 21,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 7
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 13
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "y": 232,
+                "x": 331,
+                "width": 158,
+                "var": "wancheng",
+                "skin": "bg/UI8.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 34
+            },
+            "compId": 11,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 7,
+                        "x": 16,
+                        "width": 126,
+                        "name": "wanchengdu",
+                        "height": 21,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 12
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 14
+                }
+            ]
+        }
+    ],
+    "loadList": [
+        "bg/bg_fengmian.png",
+        "comp/progress.png",
+        "bg/UI8.png"
+    ],
+    "loadList3D": []
+}

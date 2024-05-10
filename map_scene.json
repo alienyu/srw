@@ -1,1 +1,300 @@
-{"type":"Scene","props":{"width":820,"visible":false,"height":378,"autoDestroyAtClosed":true},"compId":2,"child":[{"type":"Image","props":{"y":0,"x":117,"width":585,"skin":"bg/map1.png","name":"imgmap","height":239},"compId":3,"child":[{"type":"Script","props":{"top":0,"centerX":0,"runtime":"laya.ui.Widget"},"compId":10}]},{"type":"Box","props":{"y":84,"x":255,"width":309,"visible":false,"name":"hezi","height":209,"alpha":0},"compId":4,"child":[{"type":"Text","props":{"y":-16.5,"x":66,"width":177,"var":"guanka","valign":"middle","height":33,"fontSize":25,"font":"kaiti","color":"#e8e8e8","bold":false,"align":"center","runtime":"Laya.Text"},"compId":5},{"type":"Text","props":{"y":43,"x":11.5,"width":285,"visible":true,"var":"biaoti","valign":"middle","height":34,"fontSize":25,"font":"kaiti","color":"#e8e8e8","bold":false,"align":"center","runtime":"Laya.Text"},"compId":6},{"type":"Text","props":{"y":115,"x":-26,"width":360,"valign":"middle","text":"éœ€è¦å®šåˆ¶çš„è¯·è”ç³»ä½œè€…--æºªå­¤æ˜“","height":34,"fontSize":25,"font":"kaiti","color":"#e8e8e8","bold":false,"align":"center","runtime":"Laya.Text"},"compId":30},{"type":"Text","props":{"y":158,"x":12,"width":285,"valign":"middle","text":"QQï¼š903701771","height":34,"fontSize":25,"font":"kaiti","color":"#e0e0e0","bold":false,"align":"center","runtime":"Laya.Text"},"compId":31},{"type":"Script","props":{"y":0,"x":0,"centerY":0,"centerX":0,"runtime":"laya.ui.Widget"},"compId":11}]},{"type":"Box","props":{"y":296,"x":410,"width":595,"var":"duihuaBG","height":153,"anchorY":0.5,"anchorX":0.5},"compId":14,"child":[{"type":"Image","props":{"y":-1,"x":1,"width":592,"skin":"bg/UI7.png","sizeGrid":"18,32,18,32","name":"duihuakuang","height":154},"compId":12,"child":[{"type":"Image","props":{"y":77,"x":49,"width":64,"name":"peopleimg","height":64,"anchorY":0.5,"anchorX":0.5},"compId":17},{"type":"Text","props":{"y":24,"x":190,"width":109,"pivotY":14,"pivotX":55,"name":"peoplename","height":27,"fontSize":21,"font":"kaiti","color":"#fddf08","align":"left","runtime":"Laya.Text"},"compId":16},{"type":"Text","props":{"y":39,"x":93,"wordWrap":true,"width":483,"name":"duihua","leading":8,"height":105,"fontSize":19,"font":"kaiti","color":"#d9d9d9","bold":false,"runtime":"Laya.Text"},"compId":15}]},{"type":"Script","props":{"centerX":0,"bottom":2,"runtime":"laya.ui.Widget"},"compId":19},{"type":"Button","props":{"y":3,"x":522,"width":66,"visible":true,"stateNum":1,"skin":"bg/UI8.png","sizeGrid":"18,13,18,15","name":"tiaoguo","labelStrokeColor":"#eeeeee","labelSize":20,"labelFont":"kaiti","labelColors":"#eeeeee","labelBold":false,"labelAlign":"center","label":"è·³è¿‡","height":31,"alpha":1},"compId":29}]},{"type":"Script","props":{"top":0,"right":0,"left":0,"bottom":0,"runtime":"laya.ui.Widget"},"compId":9},{"type":"Script","props":{"tiaoguo":"@node:29","peoplename":"@node:16","peopleimg":"@node:17","nextstage":"@node:25","imgmap":"@node:3","hezi":"@node:4","guanka":"@node:5","duihuaBG":"@node:14","duihua":"@node:15","biaoti":"@node:6","runtime":"scene_main/scenemap.ts"},"compId":18},{"type":"Button","props":{"y":155,"x":621.5,"width":141,"visible":false,"stateNum":1,"skin":"bg/UI8.png","sizeGrid":"18,32,18,32","name":"nextstage","labelSize":23,"labelFont":"kaiti","labelColors":"#eeeeee","labelBold":false,"label":"ä¸‹ä¸€å…³","height":38,"alpha":0},"compId":25}],"loadList":["bg/map1.png","bg/UI7.png","bg/UI8.png"],"loadList3D":[]}
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 378,
+        "autoDestroyAtClosed": true
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "y": 0,
+                "x": 117,
+                "width": 585,
+                "skin": "bg/map1.png",
+                "name": "imgmap",
+                "height": 239
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "Script",
+                    "props": {
+                        "top": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 10
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 84,
+                "x": 255,
+                "width": 309,
+                "visible": false,
+                "name": "hezi",
+                "height": 209,
+                "alpha": 0
+            },
+            "compId": 4,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": -16.5,
+                        "x": 66,
+                        "width": 177,
+                        "var": "guanka",
+                        "valign": "middle",
+                        "height": 33,
+                        "fontSize": 25,
+                        "font": "kaiti",
+                        "color": "#e8e8e8",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 5
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 43,
+                        "x": 11.5,
+                        "width": 285,
+                        "visible": true,
+                        "var": "biaoti",
+                        "valign": "middle",
+                        "height": 34,
+                        "fontSize": 25,
+                        "font": "kaiti",
+                        "color": "#e8e8e8",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 6
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 115,
+                        "x": -26,
+                        "width": 360,
+                        "valign": "middle",
+                        "text": "éœ€è¦å®šåˆ¶çš„è¯·è”ç³»ä½œè€…--æºªå­¤æ˜“",
+                        "height": 34,
+                        "fontSize": 25,
+                        "font": "kaiti",
+                        "color": "#e8e8e8",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 30
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 158,
+                        "x": 12,
+                        "width": 285,
+                        "valign": "middle",
+                        "text": "QQï¼š903701771",
+                        "height": 34,
+                        "fontSize": 25,
+                        "font": "kaiti",
+                        "color": "#e0e0e0",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 31
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "y": 0,
+                        "x": 0,
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 11
+                }
+            ]
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 296,
+                "x": 410,
+                "width": 595,
+                "var": "duihuaBG",
+                "height": 153,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+            },
+            "compId": 14,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": -1,
+                        "x": 1,
+                        "width": 592,
+                        "skin": "bg/UI7.png",
+                        "sizeGrid": "18,32,18,32",
+                        "name": "duihuakuang",
+                        "height": 154
+                    },
+                    "compId": 12,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 77,
+                                "x": 49,
+                                "width": 64,
+                                "name": "peopleimg",
+                                "height": 64,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "compId": 17
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 24,
+                                "x": 190,
+                                "width": 109,
+                                "pivotY": 14,
+                                "pivotX": 55,
+                                "name": "peoplename",
+                                "height": 27,
+                                "fontSize": 21,
+                                "font": "kaiti",
+                                "color": "#fddf08",
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 16
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 39,
+                                "x": 93,
+                                "wordWrap": true,
+                                "width": 483,
+                                "name": "duihua",
+                                "leading": 8,
+                                "height": 105,
+                                "fontSize": 19,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "bottom": 2,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 19
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 3,
+                        "x": 522,
+                        "width": 66,
+                        "visible": true,
+                        "stateNum": 1,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,13,18,15",
+                        "name": "tiaoguo",
+                        "labelStrokeColor": "#eeeeee",
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#eeeeee",
+                        "labelBold": false,
+                        "labelAlign": "center",
+                        "label": "è·³è¿‡",
+                        "height": 31,
+                        "alpha": 1
+                    },
+                    "compId": 29
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 9
+        },
+        {
+            "type": "Script",
+            "props": {
+                "tiaoguo": "@node:29",
+                "peoplename": "@node:16",
+                "peopleimg": "@node:17",
+                "nextstage": "@node:25",
+                "imgmap": "@node:3",
+                "hezi": "@node:4",
+                "guanka": "@node:5",
+                "duihuaBG": "@node:14",
+                "duihua": "@node:15",
+                "biaoti": "@node:6",
+                "runtime": "scene_main/scenemap.ts"
+            },
+            "compId": 18
+        },
+        {
+            "type": "Button",
+            "props": {
+                "y": 155,
+                "x": 621.5,
+                "width": 141,
+                "visible": false,
+                "stateNum": 1,
+                "skin": "bg/UI8.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "nextstage",
+                "labelSize": 23,
+                "labelFont": "kaiti",
+                "labelColors": "#eeeeee",
+                "labelBold": false,
+                "label": "ä¸‹ä¸€å…³",
+                "height": 38,
+                "alpha": 0
+            },
+            "compId": 25
+        }
+    ],
+    "loadList": [
+        "bg/map1.png",
+        "bg/UI7.png",
+        "bg/UI8.png"
+    ],
+    "loadList3D": []
+}
