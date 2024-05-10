@@ -1,0 +1,375 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "height": 380,
+        "autoDestroyAtClosed": true
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 189,
+                "x": 409,
+                "width": 1,
+                "height": 1
+            },
+            "compId": 22,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": -186,
+                        "x": -249,
+                        "width": 498,
+                        "skin": "bg/bg_fengmian.png",
+                        "height": 132
+                    },
+                    "compId": 15
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 142,
+                        "x": 14,
+                        "width": 166,
+                        "var": "Box1",
+                        "skin": "bg/UI7.png",
+                        "sizeGrid": "18,32,18,32",
+                        "pivotY": 74,
+                        "pivotX": 97,
+                        "height": 114
+                    },
+                    "compId": 26,
+                    "child": [
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 11,
+                                "x": 28,
+                                "width": 109,
+                                "name": "stargame",
+                                "labelSize": 25,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "label": "å¼€å§‹æ¸¸æˆ",
+                                "height": 26
+                            },
+                            "compId": 3
+                        },
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 43,
+                                "x": 28,
+                                "width": 109,
+                                "rotation": 0,
+                                "name": "jixugame",
+                                "labelSize": 25,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "label": "ç»§ç»­æ¸¸æˆ",
+                                "height": 26
+                            },
+                            "compId": 7
+                        },
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 75,
+                                "x": 28,
+                                "width": 109,
+                                "rotation": 0,
+                                "name": "guankacundang",
+                                "labelSize": 25,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "label": "å…³å¡å­˜æ¡£",
+                                "height": 26
+                            },
+                            "compId": 8
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": -70,
+                                "x": -2,
+                                "width": 170,
+                                "text": "ä½œè€…:æºªå­¤æ˜“",
+                                "height": 29,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#eee7e7",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 33
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": -40,
+                                "x": -12,
+                                "width": 189,
+                                "text": "QQç¾¤ï¼š224334820",
+                                "height": 29,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#eee7e7",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 34
+                        }
+                    ]
+                },
+                {
+                    "type": "Box",
+                    "props": {
+                        "y": -43,
+                        "x": -189,
+                        "width": 378,
+                        "visible": false,
+                        "var": "Box2",
+                        "height": 232
+                    },
+                    "compId": 10,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 20,
+                                "x": 62,
+                                "width": 125,
+                                "skin": "bg/UI8.png",
+                                "sizeGrid": "18,32,18,32",
+                                "height": 33
+                            },
+                            "compId": 35
+                        },
+                        {
+                            "type": "ComboBox",
+                            "props": {
+                                "y": 60,
+                                "x": 64,
+                                "width": 121,
+                                "visibleNum": 5,
+                                "visible": true,
+                                "skin": "comp/combobox.png",
+                                "sizeGrid": "27,62,0,50",
+                                "selectedIndex": 0,
+                                "scrollBarSkin": "comp/vscroll_2.png",
+                                "name": "GKxuanze",
+                                "labels": "label1,label2,label3",
+                                "labelSize": 21,
+                                "labelFont": "kaiti",
+                                "labelBold": true,
+                                "itemSize": 20,
+                                "height": 26
+                            },
+                            "compId": 9
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 40,
+                                "x": 126,
+                                "width": 126,
+                                "valign": "middle",
+                                "text": "è¯·é€‰æ‹©å…³å¡",
+                                "pivotY": 17,
+                                "pivotX": 66,
+                                "height": 29,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 11
+                        },
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 57,
+                                "x": 203,
+                                "width": 122,
+                                "stateNum": 1,
+                                "skin": "bg/UI8.png",
+                                "sizeGrid": "18,32,18,32",
+                                "name": "jinrugame",
+                                "labelStrokeColor": "#000000",
+                                "labelSize": 21,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "label": "è¿›å…¥æ¸¸æˆ",
+                                "height": 31
+                            },
+                            "compId": 13
+                        },
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 22,
+                                "x": 203,
+                                "width": 122,
+                                "stateNum": 1,
+                                "skin": "bg/UI8.png",
+                                "name": "fanhuizhuye",
+                                "labelStrokeColor": "#000000",
+                                "labelSize": 21,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "label": "è¿”å›žä¸»é¡µ",
+                                "height": 31,
+                                "sizeGrid": "18,32,18,32"
+                            },
+                            "compId": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "zOrder": 1,
+                        "y": 129,
+                        "x": 1,
+                        "width": 197,
+                        "visible": false,
+                        "skin": "bg/UI7.png",
+                        "pivotY": 23,
+                        "pivotX": 99,
+                        "name": "tishi",
+                        "height": 45,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 19,
+                    "child": [
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 199,
+                                "valign": "middle",
+                                "text": "æ— å­˜æ¡£",
+                                "strokeColor": "#000000",
+                                "name": "tishiwenben",
+                                "height": 45,
+                                "fontSize": 25,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 23
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": -70,
+                        "x": -191,
+                        "width": 382,
+                        "valign": "middle",
+                        "text": "é‡åˆ¶ç‰ˆâ€”ä¸å¿˜åˆå¿ƒ",
+                        "height": 59,
+                        "fontSize": 40,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 18
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -190,
+                        "x": 359,
+                        "width": 52,
+                        "stateNum": 1,
+                        "skin": "comp/UI8.png",
+                        "name": "gonggao",
+                        "labelStrokeColor": "#ffffff",
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#ffffff",
+                        "labelAlign": "center",
+                        "label": "å…¬å‘Š",
+                        "height": 31
+                    },
+                    "compId": 36
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "xinshounandu": "@node:28",
+                "tishiwenben": "@node:20",
+                "tishi": "@node:19",
+                "stargame": "@node:3",
+                "shanchu": "@node:30",
+                "nanduBG": "@node:27",
+                "jixugame": "@node:7",
+                "jinrugame": "@node:13",
+                "jinjienandu": "@node:29",
+                "guankacundang": "@node:8",
+                "gonggao": "@node:36",
+                "fanhuizhuye": "@node:14",
+                "fanhuiZY": "@node:31",
+                "GKxuanze": "@node:9",
+                "Box2": "@node:10",
+                "Box1": "@node:26",
+                "runtime": "Index.ts"
+            },
+            "compId": 6
+        },
+        {
+            "type": "Script",
+            "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 21
+        }
+    ],
+    "loadList": [
+        "bg/bg_fengmian.png",
+        "bg/UI7.png",
+        "bg/UI8.png",
+        "comp/combobox.png",
+        "comp/vscroll_2.png",
+        "comp/UI8.png"
+    ],
+    "loadList3D": []
+}
