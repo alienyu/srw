@@ -1,0 +1,241 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 0,
+                "y": 190,
+                "x": 410,
+                "width": 232,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "sprict",
+                "height": 176,
+                "cacheAs": "none",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 46,
+                        "x": 21,
+                        "width": 198,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "spaceY": 3,
+                        "spaceX": 3,
+                        "repeatX": 2,
+                        "name": "list",
+                        "height": 124,
+                        "elasticEnabled": true,
+                        "drawCallOptimize": true,
+                        "cacheAs": "none"
+                    },
+                    "compId": 4,
+                    "child": [
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": -3,
+                                "x": -2,
+                                "width": 96,
+                                "stateNum": 1,
+                                "skin": "bg/UI8.png",
+                                "sizeGrid": "18,32,18,32",
+                                "renderType": "render",
+                                "name": "duqu",
+                                "labelSize": 18,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d9d9d9",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "height": 29
+                            },
+                            "compId": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 10,
+                        "x": 193,
+                        "width": 29,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "sizeGrid": "5,5,5,5",
+                        "name": "btn_close",
+                        "height": 28
+                    },
+                    "compId": 6
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 7
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 10,
+                        "x": 10,
+                        "width": 29,
+                        "stateNum": 1,
+                        "skin": "comp/btn_？.png",
+                        "sizeGrid": "5,5,5,5",
+                        "name": "JSshuoming",
+                        "labelSize": 18,
+                        "labelPadding": "0,0,0,5",
+                        "labelFont": "kaiti",
+                        "labelColors": "#d9d9d9",
+                        "labelBold": false,
+                        "labelAlign": "center",
+                        "label": "？",
+                        "height": 28
+                    },
+                    "compId": 10
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 11,
+                        "x": 79,
+                        "width": 74,
+                        "stateNum": 1,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "renderType": "render",
+                        "name": "JSshengji",
+                        "labelSize": 18,
+                        "labelFont": "kaiti",
+                        "labelColors": "#d9d9d9",
+                        "labelBold": false,
+                        "labelAlign": "center",
+                        "label": "精神",
+                        "height": 29
+                    },
+                    "compId": 11
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 12
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 92,
+                "x": 263,
+                "width": 294,
+                "visible": false,
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "JSmianban",
+                "height": 196
+            },
+            "compId": 13,
+            "child": [
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 14
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -8,
+                        "x": 268,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "close1",
+                        "height": 30
+                    },
+                    "compId": 15
+                },
+                {
+                    "type": "Panel",
+                    "props": {
+                        "zOrder": 4,
+                        "y": 100,
+                        "x": 145,
+                        "width": 273,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "pivotY": 86,
+                        "pivotX": 134,
+                        "name": "gundongtiao",
+                        "height": 172
+                    },
+                    "compId": 16,
+                    "child": [
+                        {
+                            "type": "VBox",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 280,
+                                "space": 4,
+                                "name": "tejiJShezi",
+                                "height": 500,
+                                "align": "left"
+                            },
+                            "compId": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "tejiJShezi": "@node:17",
+                "sprict": "@node:3",
+                "list": "@node:4",
+                "gundongtiao": "@node:16",
+                "close1": "@node:15",
+                "btn_close": "@node:6",
+                "JSshuoming": "@node:10",
+                "JSshengji": "@node:11",
+                "JSmianban": "@node:13",
+                "runtime": "script/JingShen.ts"
+            },
+            "compId": 9
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/vscroll_2.png",
+        "bg/UI8.png",
+        "comp/btn_x.png",
+        "comp/btn_？.png"
+    ],
+    "loadList3D": []
+}

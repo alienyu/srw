@@ -1,0 +1,1167 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 190,
+                "x": 400,
+                "width": 648,
+                "visible": true,
+                "var": "Zhuangtai",
+                "skin": "bg/img_zhezhao.png",
+                "sizeGrid": "8,8,8,8",
+                "height": 364,
+                "cacheAs": "none",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 6,
+                        "x": 6,
+                        "width": 408,
+                        "skin": "bg/UI7.png",
+                        "height": 162,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 4,
+                    "child": [
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 36,
+                                "x": 15,
+                                "width": 48,
+                                "valign": "top",
+                                "text": "水平:\\n类型:\\n机动:\\n精神:\\nHP:",
+                                "strokeColor": "#f85609",
+                                "leading": 4,
+                                "height": 112,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left"
+                            },
+                            "compId": 50
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 58,
+                                "x": 224,
+                                "width": 88,
+                                "valign": "top",
+                                "text": "下一级:\\n装备槽:\\n武器等级:\\n武器升级:",
+                                "strokeColor": "#f85609",
+                                "leading": 4,
+                                "height": 101,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left"
+                            },
+                            "compId": 96
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 5,
+                                "x": 16,
+                                "width": 141,
+                                "valign": "middle",
+                                "name": "robotname",
+                                "height": 28,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#f8f8f4",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 51
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 30,
+                                "x": 70,
+                                "width": 49,
+                                "valign": "middle",
+                                "name": "level",
+                                "height": 28,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 52
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 9.5,
+                                "x": 187,
+                                "width": 26,
+                                "visible": false,
+                                "valign": "middle",
+                                "name": "duoshuashu",
+                                "height": 19,
+                                "fontSize": 18,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 91
+                        },
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 10,
+                                "x": 164,
+                                "visible": false,
+                                "skin": "bg/duosha2.png",
+                                "name": "hongxing"
+                            },
+                            "compId": 89
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 58,
+                                "x": 70,
+                                "width": 68,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "leixing",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 53
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 82.5,
+                                "x": 70,
+                                "width": 68,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "jidong",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 54
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 55.5,
+                                "x": 318,
+                                "width": 66,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "jingyan",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "cacheAs": "none",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 66
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 107,
+                                "x": 70,
+                                "width": 99,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "jingshen",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 62
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 105,
+                                "x": 318,
+                                "width": 49,
+                                "name": "weaponlevel",
+                                "height": 21,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 75
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 129.5,
+                                "x": 318,
+                                "width": 77,
+                                "name": "weaponexp",
+                                "height": 21,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 76
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 124,
+                                "x": 70,
+                                "wordWrap": false,
+                                "width": 130,
+                                "valign": "middle",
+                                "text": "10000/10000",
+                                "strokeColor": "#f85609",
+                                "name": "xueliang",
+                                "height": 36,
+                                "fontSize": 19,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 63
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 80,
+                                "x": 317,
+                                "width": 84,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "jisha",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "cacheAs": "none",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 80
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 170,
+                        "x": 6,
+                        "width": 139,
+                        "skin": "bg/UI7.png",
+                        "sizeGrid": "18,32,18,32",
+                        "name": "suduqiangdu",
+                        "height": 188
+                    },
+                    "compId": 77,
+                    "child": [
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 8,
+                                "x": 15,
+                                "width": 48,
+                                "valign": "top",
+                                "text": "强度:\\n防御:\\n速度:",
+                                "strokeColor": "#f85609",
+                                "leading": 4,
+                                "height": 72,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left"
+                            },
+                            "compId": 79
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 87,
+                                "x": 15,
+                                "width": 48,
+                                "valign": "top",
+                                "text": "增伤:\\n减伤:\\n刺破:\\n穿透:",
+                                "strokeColor": "#f85609",
+                                "leading": 4,
+                                "height": 93,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left"
+                            },
+                            "compId": 99
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 7.5,
+                                "x": 70,
+                                "width": 54,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "qiangdu",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 55
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 31,
+                                "x": 70,
+                                "width": 57,
+                                "valign": "middle",
+                                "name": "fangyu",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 56
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 55,
+                                "x": 70,
+                                "width": 55,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "sudu",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 57
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 86,
+                                "x": 70,
+                                "width": 55,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "zengshang",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 58
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 109,
+                                "x": 70,
+                                "width": 54,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "jianshang",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 59
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 133.5,
+                                "x": 70,
+                                "width": 56,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "cipo",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 60
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 158,
+                                "x": 70,
+                                "width": 55,
+                                "valign": "middle",
+                                "strokeColor": "#f85609",
+                                "name": "chuantou",
+                                "height": 22,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 61
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 170,
+                        "x": 146.5,
+                        "width": 495,
+                        "skin": "bg/UI7.png",
+                        "name": "wuqi",
+                        "height": 89,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 7,
+                    "child": [
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 328,
+                                "wordWrap": true,
+                                "width": 91,
+                                "name": "huoli2",
+                                "height": 24,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 37
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 409,
+                                "wordWrap": true,
+                                "width": 88,
+                                "name": "huoli3",
+                                "height": 37,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 38
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 254,
+                                "wordWrap": false,
+                                "width": 79,
+                                "name": "huoli1",
+                                "height": 20,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 39
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 328,
+                                "wordWrap": false,
+                                "width": 91,
+                                "name": "huoli5",
+                                "height": 21,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 46
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 409,
+                                "wordWrap": true,
+                                "width": 88,
+                                "name": "huoli6",
+                                "height": 37,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 47
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 254,
+                                "wordWrap": true,
+                                "width": 79,
+                                "name": "huoli4",
+                                "height": 23,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 48
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 192,
+                                "width": 57,
+                                "rotation": 0,
+                                "name": "mingzhong2",
+                                "height": 24,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 42
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 146,
+                                "width": 31,
+                                "name": "shecheng2",
+                                "height": 24,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 44
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 192,
+                                "width": 57,
+                                "name": "mingzhong",
+                                "height": 24,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 33
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 146,
+                                "width": 31,
+                                "name": "shecheng",
+                                "height": 24,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 35
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 9,
+                                "x": 12,
+                                "width": 450,
+                                "text": "武器名       射程  命中    空      陆      海",
+                                "height": 20,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 45
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 35,
+                                "x": 12,
+                                "width": 94,
+                                "name": "weaponName1",
+                                "height": 20,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 100
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 61,
+                                "x": 12,
+                                "width": 111,
+                                "name": "weaponName2",
+                                "height": 20,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 101
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 261,
+                        "x": 146.5,
+                        "width": 495,
+                        "skin": "bg/UI7.png",
+                        "name": "RWzhuangbei",
+                        "height": 98,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 6,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 49,
+                                "x": 47,
+                                "width": 64,
+                                "name": "touxiang",
+                                "height": 64,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "compId": 9
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 49,
+                                "x": 94,
+                                "wordWrap": true,
+                                "width": 165,
+                                "valign": "middle",
+                                "name": "renming",
+                                "height": 25,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#f8f8f4",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 64
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 14,
+                                "x": 129,
+                                "width": 95,
+                                "valign": "middle",
+                                "text": "驾驶员",
+                                "strokeColor": "#000000",
+                                "height": 35,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "cacheAs": "none",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 65
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "zOrder": 3,
+                        "y": 78,
+                        "x": 123,
+                        "width": 392,
+                        "visible": false,
+                        "skin": "bg/UI7.png",
+                        "sizeGrid": "18,32,18,32",
+                        "name": "tejiJS",
+                        "height": 196
+                    },
+                    "compId": 84,
+                    "child": [
+                        {
+                            "type": "Script",
+                            "props": {
+                                "centerY": 0,
+                                "centerX": 0,
+                                "runtime": "laya.ui.Widget"
+                            },
+                            "compId": 87
+                        },
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": -8,
+                                "x": 368,
+                                "width": 30,
+                                "stateNum": 1,
+                                "skin": "comp/btn_x.png",
+                                "name": "close1",
+                                "height": 30
+                            },
+                            "compId": 88
+                        },
+                        {
+                            "type": "Panel",
+                            "props": {
+                                "zOrder": 4,
+                                "y": 110,
+                                "x": 200,
+                                "width": 377,
+                                "vScrollBarSkin": "comp/vscroll_2.png",
+                                "pivotY": 93,
+                                "pivotX": 190,
+                                "name": "gundongtiao",
+                                "height": 172
+                            },
+                            "compId": 83,
+                            "child": [
+                                {
+                                    "type": "VBox",
+                                    "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "width": 365,
+                                        "space": 4,
+                                        "name": "tejiJShezi",
+                                        "height": 1200,
+                                        "align": "left"
+                                    },
+                                    "compId": 86
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 87,
+                        "x": 532,
+                        "name": "robotimg",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "compId": 29
+                },
+                {
+                    "type": "Box",
+                    "props": {
+                        "zOrder": 4,
+                        "y": 32,
+                        "x": 334,
+                        "width": 150,
+                        "visible": false,
+                        "space": 6,
+                        "name": "ZBMB",
+                        "height": 300,
+                        "alpha": 1,
+                        "align": "none"
+                    },
+                    "compId": 24,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 155,
+                                "skin": "bg/UI7.png",
+                                "sizeGrid": "18,32,18,32",
+                                "height": 300
+                            },
+                            "compId": 25
+                        },
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 26,
+                                "x": 41,
+                                "width": 50,
+                                "name": "ZBimg",
+                                "height": 50,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "compId": 26
+                        },
+                        {
+                            "type": "VBox",
+                            "props": {
+                                "y": 81,
+                                "x": 9,
+                                "width": 135,
+                                "space": 6,
+                                "name": "ZBshuxing",
+                                "height": 210
+                            },
+                            "compId": 27
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 55,
+                                "x": 10,
+                                "wordWrap": false,
+                                "width": 146,
+                                "valign": "top",
+                                "stroke": 3,
+                                "name": "ZBname",
+                                "height": 24,
+                                "fontSize": 19,
+                                "font": "kaiti",
+                                "color": "#ffffff",
+                                "bold": false,
+                                "align": "left",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 0,
+                        "x": 620,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "close",
+                        "height": 30
+                    },
+                    "compId": 10
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 0,
+                        "x": 414,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_？.png",
+                        "name": "tejijingshen",
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#eeeeee",
+                        "labelBold": false,
+                        "labelAlign": "center",
+                        "label": "?",
+                        "height": 30
+                    },
+                    "compId": 82
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "zOrder": 4,
+                        "y": 232,
+                        "x": 499,
+                        "width": 113,
+                        "visible": false,
+                        "stateNum": 1,
+                        "skin": "bg/UI8.png",
+                        "name": "xiezai",
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#efefef",
+                        "labelBold": false,
+                        "label": "卸下装备",
+                        "height": 32,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 68
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 70
+                },
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 267.5,
+                        "x": 490,
+                        "width": 130,
+                        "visible": false,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "name": "EQlist",
+                        "height": 85
+                    },
+                    "compId": 93,
+                    "child": [
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 42,
+                                "stateNum": 2,
+                                "skin": "comp/btn_zb.png",
+                                "renderType": "render",
+                                "name": "EQbtn",
+                                "height": 42
+                            },
+                            "compId": 94,
+                            "child": [
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": 6,
+                                        "x": 6,
+                                        "width": 30,
+                                        "name": "EQimg",
+                                        "height": 30
+                                    },
+                                    "compId": 95
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 274,
+                        "x": 438,
+                        "wordWrap": true,
+                        "width": 46,
+                        "visible": false,
+                        "valign": "middle",
+                        "text": "装备",
+                        "strokeColor": "#f85609",
+                        "name": "zhuangbei2zi",
+                        "height": 30,
+                        "fontSize": 20,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 102
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "top": 0,
+                "right": 0,
+                "left": 0,
+                "bottom": 0,
+                "runtime": "laya.ui.Widget"
+            },
+            "compId": 71
+        },
+        {
+            "type": "Script",
+            "props": {
+                "zhuangbei2zi": "@node:102",
+                "zengshang": "@node:58",
+                "xueliang": "@node:63",
+                "xiezai": "@node:68",
+                "wuqixuanze": "@node:67",
+                "weaponlevel": "@node:75",
+                "weaponexp": "@node:76",
+                "weaponName2": "@node:101",
+                "weaponName1": "@node:100",
+                "viewstack": "@node:30",
+                "touxiang": "@node:9",
+                "tejijingshen": "@node:82",
+                "tejiJShezi": "@node:86",
+                "tejiJS": "@node:84",
+                "sudu": "@node:57",
+                "shengji": "@node:92",
+                "shecheng2": "@node:44",
+                "shecheng": "@node:35",
+                "robotname": "@node:51",
+                "robotimg": "@node:29",
+                "renming": "@node:64",
+                "qiangdu": "@node:55",
+                "mingzhong2": "@node:42",
+                "mingzhong": "@node:33",
+                "level": "@node:52",
+                "leixing": "@node:53",
+                "jisha": "@node:80",
+                "jingyan": "@node:66",
+                "jingshen": "@node:62",
+                "jidong": "@node:54",
+                "jianshang": "@node:59",
+                "huoli6": "@node:47",
+                "huoli5": "@node:46",
+                "huoli4": "@node:48",
+                "huoli3": "@node:38",
+                "huoli2": "@node:37",
+                "huoli1": "@node:39",
+                "hongxing": "@node:89",
+                "gundongtiao": "@node:83",
+                "fangyu": "@node:56",
+                "duoshuashu": "@node:91",
+                "close1": "@node:88",
+                "close": "@node:10",
+                "cipo": "@node:60",
+                "chuantou": "@node:61",
+                "Zhuangtai": "@node:3",
+                "ZBshuxing": "@node:27",
+                "ZBname": "@node:28",
+                "ZBleixing": "@node:81",
+                "ZBimg6": "@node:23",
+                "ZBimg5": "@node:21",
+                "ZBimg4": "@node:19",
+                "ZBimg3": "@node:17",
+                "ZBimg2": "@node:15",
+                "ZBimg1": "@node:13",
+                "ZBimg": "@node:26",
+                "ZBbtn6": "@node:22",
+                "ZBbtn5": "@node:20",
+                "ZBbtn4": "@node:18",
+                "ZBbtn3": "@node:16",
+                "ZBbtn2": "@node:14",
+                "ZBbtn1": "@node:12",
+                "ZBMB": "@node:24",
+                "EQlist": "@node:93",
+                "EQbtn": "@node:94",
+                "runtime": "script/zhuangtai.ts"
+            },
+            "compId": 72
+        }
+    ],
+    "loadList": [
+        "bg/img_zhezhao.png",
+        "bg/UI7.png",
+        "bg/duosha2.png",
+        "comp/btn_x.png",
+        "comp/vscroll_2.png",
+        "comp/btn_？.png",
+        "bg/UI8.png",
+        "comp/btn_zb.png"
+    ],
+    "loadList3D": []
+}
