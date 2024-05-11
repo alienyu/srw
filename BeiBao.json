@@ -1,0 +1,341 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "y": 34,
+                "x": 248,
+                "width": 323,
+                "skin": "bg/UI7.png",
+                "height": 311,
+                "sizeGrid": "18,32,18,32"
+            },
+            "compId": 4,
+            "child": [
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 4,
+                        "x": 288,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "close",
+                        "height": 30
+                    },
+                    "compId": 7
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 8,
+                        "x": 68,
+                        "width": 196,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "height": 36
+                    },
+                    "compId": 26,
+                    "child": [
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 18,
+                                "x": 98,
+                                "width": 199,
+                                "valign": "middle",
+                                "pivotY": 18,
+                                "pivotX": 100,
+                                "name": "jinbi",
+                                "height": 35,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 46,
+                        "x": 6,
+                        "width": 310,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "selectEnable": true,
+                        "name": "DaoJu",
+                        "height": 257,
+                        "elasticEnabled": true
+                    },
+                    "compId": 8,
+                    "child": [
+                        {
+                            "type": "Box",
+                            "props": {
+                                "y": 5,
+                                "x": 5,
+                                "width": 50,
+                                "renderType": "render",
+                                "height": 50
+                            },
+                            "compId": 9,
+                            "child": [
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "width": 50,
+                                        "skin": "bg/bg100-0.png",
+                                        "name": "listItemBG",
+                                        "height": 50
+                                    },
+                                    "compId": 10
+                                },
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": 1,
+                                        "x": 1,
+                                        "width": 48,
+                                        "name": "listItemImg",
+                                        "height": 48
+                                    },
+                                    "compId": 11
+                                },
+                                {
+                                    "type": "Label",
+                                    "props": {
+                                        "y": 25,
+                                        "x": 3,
+                                        "width": 45,
+                                        "valign": "middle",
+                                        "strokeColor": "#000000",
+                                        "stroke": 2,
+                                        "name": "num",
+                                        "height": 22,
+                                        "fontSize": 17,
+                                        "font": "Arial",
+                                        "color": "#fb0400",
+                                        "bold": true,
+                                        "align": "right"
+                                    },
+                                    "compId": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 34,
+                        "x": 323,
+                        "width": 158,
+                        "visible": false,
+                        "skin": "bg/UI7.png",
+                        "name": "ZBshuoming",
+                        "height": 277,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 13,
+                    "child": [
+                        {
+                            "type": "VBox",
+                            "props": {
+                                "y": 81,
+                                "x": 8,
+                                "width": 145,
+                                "visible": true,
+                                "space": 4,
+                                "name": "vBox",
+                                "height": 195
+                            },
+                            "compId": 14
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 54,
+                                "x": 6,
+                                "wordWrap": false,
+                                "width": 148,
+                                "valign": "top",
+                                "stroke": 3,
+                                "name": "zhuangbeiname",
+                                "height": 24,
+                                "fontSize": 19,
+                                "font": "kaiti",
+                                "color": "#ffffff",
+                                "bold": false,
+                                "align": "left"
+                            },
+                            "compId": 15
+                        },
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 2,
+                                "x": 9,
+                                "width": 50,
+                                "name": "zhuangbeiimg",
+                                "height": 50
+                            },
+                            "compId": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 34,
+                        "x": 322,
+                        "width": 139,
+                        "visible": false,
+                        "skin": "bg/UI7.png",
+                        "name": "DJshuoming",
+                        "height": 277,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 17,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 3,
+                                "x": 19,
+                                "width": 73,
+                                "name": "daojuimg",
+                                "height": 72
+                            },
+                            "compId": 18
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 115,
+                                "x": 13,
+                                "wordWrap": true,
+                                "width": 112,
+                                "name": "DJwenzi",
+                                "multiline": false,
+                                "leading": 4,
+                                "height": 164,
+                                "fontSize": 20,
+                                "font": "kaiti",
+                                "editable": false,
+                                "color": "#d9d9d9",
+                                "bold": false
+                            },
+                            "compId": 19
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 78,
+                                "x": 8,
+                                "width": 101,
+                                "valign": "middle",
+                                "name": "daojuname",
+                                "height": 29,
+                                "fontSize": 22,
+                                "font": "kaiti",
+                                "color": "#00fd14",
+                                "bold": false,
+                                "align": "center"
+                            },
+                            "compId": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 23
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 69,
+                        "x": -86,
+                        "width": 86,
+                        "skin": "bg/UI7.png",
+                        "height": 184,
+                        "sizeGrid": "18,32,18,32"
+                    },
+                    "compId": 25,
+                    "child": [
+                        {
+                            "type": "RadioGroup",
+                            "props": {
+                                "y": 10,
+                                "x": 7,
+                                "width": 74,
+                                "space": 9,
+                                "skin": "comp/radiogroup.png",
+                                "selectedIndex": 0,
+                                "name": "fenlei",
+                                "labels": " 全部, 装备, 碎片, 属性, 消耗, 上限",
+                                "labelSize": 19,
+                                "labelFont": "kaiti",
+                                "labelColors": "#fff",
+                                "labelBold": false,
+                                "height": 183,
+                                "direction": "vertical"
+                            },
+                            "compId": 24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "zhuangbeiname": "@node:15",
+                "zhuangbeiimg": "@node:16",
+                "y": 50,
+                "x": 258,
+                "vBox": "@node:14",
+                "list": "@node:8",
+                "jinbi": "@node:6",
+                "fenlei": "@node:24",
+                "daojuname": "@node:20",
+                "daojuimg": "@node:18",
+                "close": "@node:7",
+                "ZBshuoming": "@node:13",
+                "ZBleixing": "@node:22",
+                "DaoJu": "@node:8",
+                "DJwenzi": "@node:19",
+                "DJshuoming": "@node:17",
+                "runtime": "script/daoju.ts"
+            },
+            "compId": 21
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/btn_x.png",
+        "bg/UI8.png",
+        "comp/vscroll_2.png",
+        "bg/bg100-0.png",
+        "comp/radiogroup.png"
+    ],
+    "loadList3D": []
+}

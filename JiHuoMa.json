@@ -1,0 +1,172 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 131,
+                "x": 305,
+                "width": 210,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "height": 137,
+                "sizeGrid": "18,32,18,32"
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "TextInput",
+                    "props": {
+                        "y": 50,
+                        "x": 23,
+                        "width": 163,
+                        "valign": "middle",
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "name": "shurukuang",
+                        "height": 37,
+                        "fontSize": 19,
+                        "font": "kaiti",
+                        "bold": true,
+                        "align": "center"
+                    },
+                    "compId": 4
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 16,
+                        "x": 39,
+                        "width": 131,
+                        "valign": "middle",
+                        "text": "请输入激活码",
+                        "height": 33,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 5
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 110,
+                        "x": 105,
+                        "width": 75,
+                        "stateNum": 1,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "pivotY": 18,
+                        "pivotX": 38,
+                        "name": "queding",
+                        "labelStrokeColor": "#eaeaea",
+                        "labelSize": 19,
+                        "labelFont": "kaiti",
+                        "labelColors": "#eaeaea",
+                        "labelBold": false,
+                        "label": "确定",
+                        "height": 35
+                    },
+                    "compId": 6
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 5,
+                        "x": 178,
+                        "width": 26,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "btn_close",
+                        "height": 26
+                    },
+                    "compId": 7
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 8
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 5,
+                "y": 289,
+                "x": 301,
+                "width": 217,
+                "visible": false,
+                "skin": "bg/UI7.png",
+                "name": "tishi",
+                "height": 40,
+                "sizeGrid": "18,32,18,32"
+            },
+            "compId": 10,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 1,
+                        "x": 10,
+                        "width": 197,
+                        "valign": "middle",
+                        "strokeColor": "#121111",
+                        "name": "tishiwenben",
+                        "height": 38,
+                        "fontSize": 24,
+                        "font": "kaiti",
+                        "color": "#f3f3f3",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 11
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "bottom": 65,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 12
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 131,
+                "x": 315,
+                "tishiwenben": "@node:11",
+                "tishi": "@node:10",
+                "shurukuang": "@node:4",
+                "queding": "@node:6",
+                "btn_close": "@node:7",
+                "runtime": "script/Jihuoma.ts"
+            },
+            "compId": 9
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "bg/UI8.png",
+        "comp/btn_x.png"
+    ],
+    "loadList3D": []
+}

@@ -1,0 +1,354 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 1,
+                "y": 38,
+                "x": 227,
+                "width": 366,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "SHOPBJ",
+                "height": 303,
+                "cacheAs": "none"
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 48,
+                        "x": 5,
+                        "width": 361,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "spaceY": 4,
+                        "repeatY": 7,
+                        "name": "SHOPER",
+                        "height": 250,
+                        "drawCallOptimize": true,
+                        "cacheAs": "none"
+                    },
+                    "compId": 4,
+                    "child": [
+                        {
+                            "type": "Box",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 348,
+                                "var": "Item",
+                                "renderType": "render",
+                                "name": "Itemname",
+                                "height": 32,
+                                "alpha": 1
+                            },
+                            "compId": 5,
+                            "child": [
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": 0,
+                                        "x": 0,
+                                        "width": 354,
+                                        "skin": "bg/UI8.png",
+                                        "sizeGrid": "18,32,18,32",
+                                        "height": 33
+                                    },
+                                    "compId": 6
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 4,
+                                        "x": 10,
+                                        "width": 108,
+                                        "valign": "middle",
+                                        "name": "toolname",
+                                        "height": 27,
+                                        "fontSize": 18,
+                                        "font": "kaiti",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "left",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 7
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 0,
+                                        "x": 130,
+                                        "width": 103,
+                                        "valign": "middle",
+                                        "name": "jiage",
+                                        "height": 30,
+                                        "fontSize": 18,
+                                        "font": "kaiti",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "left",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 8
+                                },
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "y": 2,
+                                        "x": 250,
+                                        "width": 54,
+                                        "name": "goumai",
+                                        "labelSize": 18,
+                                        "labelFont": "kaiti",
+                                        "labelColors": "#d9d9d9",
+                                        "labelBold": false,
+                                        "label": "购买",
+                                        "height": 29
+                                    },
+                                    "compId": 9
+                                },
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "y": 2,
+                                        "x": 302,
+                                        "width": 49,
+                                        "name": "jieshao",
+                                        "labelSize": 18,
+                                        "labelFont": "kaiti",
+                                        "labelColors": "#d9d9d9",
+                                        "labelBold": false,
+                                        "label": "介绍",
+                                        "height": 29
+                                    },
+                                    "compId": 20
+                                },
+                                {
+                                    "type": "TextInput",
+                                    "props": {
+                                        "y": 2,
+                                        "x": 198,
+                                        "width": 42,
+                                        "valign": "middle",
+                                        "type": "number",
+                                        "text": "1",
+                                        "skin": "bg/UI8.png",
+                                        "sizeGrid": "18,32,18,32",
+                                        "padding": "0,1,0,0",
+                                        "name": "shuru",
+                                        "maxChars": 2,
+                                        "height": 28,
+                                        "fontSize": 19,
+                                        "font": "kaiti",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center"
+                                    },
+                                    "compId": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 3,
+                        "x": 332,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "btn_close",
+                        "height": 30
+                    },
+                    "compId": 12
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 13
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 8,
+                        "x": 75,
+                        "width": 216,
+                        "skin": "bg/UI8.png",
+                        "sizeGrid": "18,32,18,32",
+                        "height": 38
+                    },
+                    "compId": 14,
+                    "child": [
+                        {
+                            "type": "Text",
+                            "props": {
+                                "y": 1,
+                                "x": 7,
+                                "width": 201,
+                                "valign": "middle",
+                                "strokeColor": "#140202",
+                                "name": "money",
+                                "italic": false,
+                                "height": 35,
+                                "fontSize": 23,
+                                "font": "kaiti",
+                                "color": "#d9d9d9",
+                                "bold": false,
+                                "align": "center",
+                                "runtime": "Laya.Text"
+                            },
+                            "compId": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 5,
+                "y": 279,
+                "x": 301,
+                "width": 217,
+                "visible": false,
+                "skin": "bg/UI8.png",
+                "sizeGrid": "18,32,18,32",
+                "name": "tishi",
+                "height": 40
+            },
+            "compId": 16,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 1,
+                        "x": 10,
+                        "width": 197,
+                        "valign": "middle",
+                        "strokeColor": "#121111",
+                        "name": "tishiwenben",
+                        "height": 38,
+                        "fontSize": 24,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 17
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "bottom": 65,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 18
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 5,
+                "y": 157,
+                "x": 296,
+                "width": 228,
+                "visible": false,
+                "skin": "bg/UI8.png",
+                "name": "shuomingImg",
+                "height": 85,
+                "sizeGrid": "18,32,18,32"
+            },
+            "compId": 21,
+            "child": [
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 10,
+                        "x": 12,
+                        "wordWrap": true,
+                        "width": 205,
+                        "valign": "top",
+                        "strokeColor": "#121111",
+                        "name": "shuomingText",
+                        "leading": 4,
+                        "height": 72,
+                        "fontSize": 18,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 22
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": -9,
+                        "x": 213,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "name": "textbtn_close",
+                        "height": 30
+                    },
+                    "compId": 24
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerX": 0,
+                        "bottom": 65,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 23
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 32,
+                "x": 234,
+                "tishiwenben": "@node:17",
+                "tishi": "@node:16",
+                "textbtn_close": "@node:24",
+                "shuomingText": "@node:22",
+                "shuomingImg": "@node:21",
+                "shangpinxinxi": "@node:19",
+                "money": "@node:15",
+                "btn_close": "@node:12",
+                "SHOPER": "@node:4",
+                "SHOPBJ": "@node:3",
+                "runtime": "script/Shop.ts"
+            },
+            "compId": 11
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/vscroll_2.png",
+        "bg/UI8.png",
+        "comp/btn_x.png"
+    ],
+    "loadList3D": []
+}

@@ -1,0 +1,243 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 1,
+                "y": 190,
+                "x": 410,
+                "width": 647,
+                "visible": true,
+                "var": "buduibiao",
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 297,
+                "cacheAs": "none",
+                "anchorY": 0.5,
+                "anchorX": 0.5
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 46,
+                        "x": 18,
+                        "width": 622,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "spaceY": 8,
+                        "repeatY": 6,
+                        "name": "list",
+                        "height": 243,
+                        "elasticEnabled": true,
+                        "drawCallOptimize": true,
+                        "cacheAs": "none"
+                    },
+                    "compId": 4,
+                    "child": [
+                        {
+                            "type": "Box",
+                            "props": {
+                                "y": 0,
+                                "x": 0,
+                                "width": 608,
+                                "renderType": "render",
+                                "name": "Itemname",
+                                "height": 33,
+                                "alpha": 0.8
+                            },
+                            "compId": 5,
+                            "child": [
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": -1,
+                                        "x": 0,
+                                        "width": 610,
+                                        "skin": "bg/UI8.png",
+                                        "sizeGrid": "18,32,18,32",
+                                        "height": 38
+                                    },
+                                    "compId": 6
+                                },
+                                {
+                                    "type": "Image",
+                                    "props": {
+                                        "y": 18,
+                                        "x": 31,
+                                        "width": 32,
+                                        "name": "robottubiao",
+                                        "height": 32,
+                                        "anchorY": 0.5,
+                                        "anchorX": 0.5
+                                    },
+                                    "compId": 7
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 4,
+                                        "x": 110,
+                                        "width": 141,
+                                        "valign": "middle",
+                                        "name": "robotname",
+                                        "height": 30,
+                                        "fontSize": 20,
+                                        "font": "kaiti",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 8
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 4,
+                                        "x": 255,
+                                        "width": 146,
+                                        "valign": "middle",
+                                        "name": "peoplename",
+                                        "height": 30,
+                                        "fontSize": 20,
+                                        "font": "kaiti",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 9
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 2,
+                                        "x": 400,
+                                        "width": 120,
+                                        "valign": "middle",
+                                        "name": "hp",
+                                        "height": 30,
+                                        "fontSize": 20,
+                                        "font": "SimSun",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 10
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 1,
+                                        "x": 525,
+                                        "width": 81,
+                                        "valign": "middle",
+                                        "name": "jingshen",
+                                        "height": 30,
+                                        "fontSize": 20,
+                                        "font": "SimSun",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 11
+                                },
+                                {
+                                    "type": "Text",
+                                    "props": {
+                                        "y": 1,
+                                        "x": 58,
+                                        "width": 49,
+                                        "valign": "middle",
+                                        "name": "level",
+                                        "height": 30,
+                                        "fontSize": 20,
+                                        "font": "SimSun",
+                                        "color": "#d9d9d9",
+                                        "bold": false,
+                                        "align": "center",
+                                        "runtime": "Laya.Text"
+                                    },
+                                    "compId": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 12,
+                        "x": 30,
+                        "width": 577,
+                        "valign": "middle",
+                        "text": "图标 等级     机体          机师         HP        SP",
+                        "stroke": 2,
+                        "name": "shuoming",
+                        "italic": false,
+                        "height": 28,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#efefef",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 13
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 4,
+                        "x": 612,
+                        "width": 30,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "sizeGrid": "4,4,4,4",
+                        "name": "btn_close",
+                        "height": 30
+                    },
+                    "compId": 14
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 16
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "y": 37,
+                "x": 90,
+                "list": "@node:4",
+                "btn_close": "@node:14",
+                "runtime": "script/Budui.ts"
+            },
+            "compId": 15
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/vscroll_2.png",
+        "bg/UI8.png",
+        "comp/btn_x.png"
+    ],
+    "loadList3D": []
+}
