@@ -1,0 +1,287 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 3,
+                "y": 86,
+                "x": 299,
+                "width": 222,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "sizeGrid": "18,32,18,32",
+                "height": 208
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "CheckBox",
+                    "props": {
+                        "y": 12,
+                        "x": 132,
+                        "width": 15,
+                        "skin": "comp/checkbox_2.png",
+                        "sizeGrid": "3,3,5,5",
+                        "selected": false,
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "yinyue",
+                        "height": 14
+                    },
+                    "compId": 10
+                },
+                {
+                    "type": "CheckBox",
+                    "props": {
+                        "y": 46,
+                        "x": 132,
+                        "width": 15,
+                        "skin": "comp/checkbox_2.png",
+                        "sizeGrid": "3,3,5,5",
+                        "selected": false,
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "xuetiao",
+                        "height": 14
+                    },
+                    "compId": 11
+                },
+                {
+                    "type": "CheckBox",
+                    "props": {
+                        "y": 79,
+                        "x": 132,
+                        "width": 15,
+                        "skin": "comp/checkbox_2.png",
+                        "sizeGrid": "3,3,5,5",
+                        "selected": false,
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "tishi",
+                        "height": 14
+                    },
+                    "compId": 16
+                },
+                {
+                    "type": "CheckBox",
+                    "props": {
+                        "y": 111,
+                        "x": 132,
+                        "width": 15,
+                        "skin": "comp/checkbox_2.png",
+                        "sizeGrid": "3,3,5,5",
+                        "selected": false,
+                        "scaleY": 1.2,
+                        "scaleX": 1.2,
+                        "name": "tuoEQ",
+                        "height": 14
+                    },
+                    "compId": 19
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 3,
+                        "x": 190,
+                        "width": 28,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "sizeGrid": "2,3,3,3",
+                        "name": "btn_close",
+                        "height": 28
+                    },
+                    "compId": 12
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 165,
+                        "x": 8,
+                        "width": 98,
+                        "stateNum": 1,
+                        "skin": "comp/UI8.png",
+                        "sizeGrid": "19,31,15,32",
+                        "name": "tijiao",
+                        "labelSize": 20,
+                        "labelFont": "kaiti",
+                        "labelColors": "#fff",
+                        "label": "竞技提交",
+                        "height": 34
+                    },
+                    "compId": 21
+                },
+                {
+                    "type": "HSlider",
+                    "props": {
+                        "y": 156,
+                        "x": 150.5,
+                        "width": 79,
+                        "value": 1,
+                        "tick": 0.1,
+                        "skin": "comp/hslider.png",
+                        "sizeGrid": "2,1,6,7",
+                        "pivotY": 8,
+                        "pivotX": 42,
+                        "name": "jiasu",
+                        "min": 1,
+                        "max": 4,
+                        "height": 15,
+                        "allowClickBack": false
+                    },
+                    "compId": 14
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 42,
+                        "x": -1,
+                        "width": 108,
+                        "valign": "middle",
+                        "text": "血条显示",
+                        "height": 24,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 9
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 7,
+                        "x": 0,
+                        "width": 107,
+                        "valign": "middle",
+                        "text": "游戏音乐",
+                        "height": 28,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 5
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 132,
+                        "x": -1,
+                        "width": 107,
+                        "valign": "middle",
+                        "text": "游戏加速",
+                        "height": 33,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 7
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 72,
+                        "x": -1,
+                        "width": 107,
+                        "valign": "middle",
+                        "text": "奖励显示",
+                        "height": 33,
+                        "fontSize": 21,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 15
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 102.5,
+                        "x": 0,
+                        "width": 107,
+                        "valign": "middle",
+                        "text": "脱装备提示",
+                        "height": 33,
+                        "fontSize": 18,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 18
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 169,
+                        "x": 115,
+                        "width": 107,
+                        "valign": "middle",
+                        "name": "nicheng",
+                        "height": 26,
+                        "fontSize": 18,
+                        "font": "kaiti",
+                        "color": "#d9d9d9",
+                        "bold": false,
+                        "align": "left",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 22
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 17
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "yinyue": "@node:10",
+                "y": 120,
+                "xuetiao": "@node:11",
+                "x": 299,
+                "tuoEQ": "@node:19",
+                "tishi": "@node:16",
+                "tijiao": "@node:21",
+                "nicheng": "@node:22",
+                "jiasu": "@node:14",
+                "btn_close": "@node:12",
+                "XTshezhi": "@node:285",
+                "runtime": "script/YXshezhi.ts"
+            },
+            "compId": 13
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/checkbox_2.png",
+        "comp/btn_x.png",
+        "comp/UI8.png",
+        "comp/hslider.png"
+    ],
+    "loadList3D": []
+}
