@@ -1,0 +1,133 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 820,
+        "visible": false,
+        "height": 380,
+        "alpha": 0
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Image",
+            "props": {
+                "zOrder": 0,
+                "y": 190,
+                "x": 410,
+                "width": 451,
+                "visible": true,
+                "skin": "bg/UI7.png",
+                "name": "hecheng",
+                "height": 307,
+                "cacheAs": "none",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "sizeGrid": "18,32,18,32"
+            },
+            "compId": 3,
+            "child": [
+                {
+                    "type": "List",
+                    "props": {
+                        "y": 65,
+                        "x": 23,
+                        "width": 408,
+                        "vScrollBarSkin": "comp/vscroll_2.png",
+                        "spaceY": 5,
+                        "spaceX": 8,
+                        "repeatY": 7,
+                        "repeatX": 3,
+                        "name": "list",
+                        "height": 228,
+                        "elasticEnabled": true,
+                        "drawCallOptimize": true,
+                        "cacheAs": "none"
+                    },
+                    "compId": 4,
+                    "child": [
+                        {
+                            "type": "Button",
+                            "props": {
+                                "y": -3,
+                                "x": 0,
+                                "width": 128,
+                                "stateNum": 1,
+                                "skin": "bg/UI8.png",
+                                "sizeGrid": "18,32,18,32",
+                                "renderType": "render",
+                                "name": "duqu",
+                                "labelStrokeColor": "#dddddd",
+                                "labelSize": 18,
+                                "labelFont": "kaiti",
+                                "labelColors": "#d6d6d6",
+                                "labelBold": false,
+                                "labelAlign": "center",
+                                "height": 34
+                            },
+                            "compId": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "Button",
+                    "props": {
+                        "y": 11,
+                        "x": 405,
+                        "width": 29,
+                        "stateNum": 1,
+                        "skin": "comp/btn_x.png",
+                        "sizeGrid": "5,5,5,5",
+                        "name": "btn_close",
+                        "height": 28
+                    },
+                    "compId": 11
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "centerY": 0,
+                        "centerX": 0,
+                        "runtime": "laya.ui.Widget"
+                    },
+                    "compId": 12
+                },
+                {
+                    "type": "Text",
+                    "props": {
+                        "y": 11,
+                        "x": 161,
+                        "width": 129,
+                        "valign": "middle",
+                        "text": "鍚堟垚鍒楄〃",
+                        "strokeColor": "#140202",
+                        "italic": false,
+                        "height": 35,
+                        "fontSize": 24,
+                        "font": "kaiti",
+                        "color": "#d6d6d6",
+                        "bold": false,
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 14
+                }
+            ]
+        },
+        {
+            "type": "Script",
+            "props": {
+                "list": "@node:4",
+                "btn_close": "@node:11",
+                "runtime": "script/HeCheng.ts"
+            },
+            "compId": 16
+        }
+    ],
+    "loadList": [
+        "bg/UI7.png",
+        "comp/vscroll_2.png",
+        "bg/UI8.png",
+        "comp/btn_x.png"
+    ],
+    "loadList3D": []
+}
